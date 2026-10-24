@@ -1,0 +1,27 @@
+# STM32CubeIDE workspace metadata (local to each machine)
+.metadata/
+RemoteSystemsTempFiles/
+
+# Build output
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.map
+*.list
+*.su
+*.cyclo
+
+# macOS
+.DS_Store
+
+# Machine-specific files created by STM32CubeIDE
+.osx.project
+**/.settings/language.settings.xml
+
+# Run/debug configurations hold absolute, machine-specific paths
+*.launch
+
+# SFRs view state, written by the IDE during a debug session
+**/.settings/com.st.stm32cube.ide.mcu.sfrview.prefs
